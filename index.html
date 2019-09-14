@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+p.oblique{
+    font-style: oblique
+}
+p.ex1{
+    padding-bottom: 20px;
+    }
+
+.dropbtn {
+  background-color: Black;
+  color: white;
+  padding: 16px 75px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  position: static;
+  align: center;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 16px 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #404040;}
+
+body{
+    background-color: #cc9900;
+    text-align: center;
+ }
+
+form {
+    display: inline-block;
+}
+
+</style>
+</head>
+<style>
+    body, html {
+    height: 100%;
+    margin: 0;
+    }
+    .bg {
+  /* The image used */
+  background-image: url("http://dz0zjhi21dz2t.cloudfront.net/media/80477/photos/78282/2048.jpg");
+
+  /* Full height */
+  height: 75%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
+<body>
+<div class="bg"></div>
+</body>
+<h1 align="center">Website Title TBH</h1>
+<h2 align ="center">Something</h2>
+
+    <form >
+        PUID:<br>
+        <input type = "number" id ="PUID"><br>
+    </form>
+
+    <form>
+        Email:<br>
+        <input type ="text" email ="email"><br>
+    </form>
+<p align ="center"> Select Dining Hall</p>
+
+<div class="dropdown" >
+    <button class="dropbtn" id="location" >Location</button>
+    <div class="dropdown-content">
+        <a href="#">Earhart</a>
+        <a href="#">Wiley</a>
+        <a href="#">Ford</a>
+        <a href="#">Hillenbrand</a>
+        <a href="#">Windsor</a>
+    </div>
+</div>
+<p align = center> Which meal?</p>
+<div class="dropdown">
+    <button class="dropbtn" id="meal">Meal</button>
+    <div class = "dropdown-content">
+        <a href ="#">Breakfast</a>
+        <a href ="#">Lunch</a>
+        <a href ="#">Dinner</a>
+    </div>
+</div>
+<p align = center > Select Food Item</p>
+<div class="dropdown">
+    <button class ="dropbtn" id = "food">Food Item</button>
+    <div class ="dropdown-content">
+        <a href ="#">Sandwich Bread</a>
+        <a href ="#">Bagel</a>
+        <a href ="#">Waffles</a>
+        <a href ="#">Pasta</a>
+        <a href ="#">Actual Menu items</a>
+    </div>
+</div>
+<p></p>
+<form>
+    Quantity:<br>
+    <input type="number" id ="quantity"><br>
+</form>
+<p></p>
+<form>
+    Time:<br>
+    <input type ="time" id ="time"><br>
+</form>
+<p align = "center">Select Allergy</p>
+<div class="dropdown" id ="dropdown">
+    <button class="dropbtn">Allergy</button>
+    <div class="dropdown-content">
+        <a href="#">Gluten Free</a>
+        <a href="#">Dairy Free</a>
+        <a href="#">Nut Free</a>
+
+    </div>
+</div>
+<p></p>
+<div class = "btn-group" id="submit">
+    <button>Submit</button>
+</div>
+<p></p>
+
+<div class="About" style="max-width:1600px" id="aboout">
+    <h3 class ="w3-wide">About Us</h3>
+    <p class = "w3-opacity">Hello World Hackathon</p>
+    <p class ="w3-justify">Alissa Honigford,   Frances O'Leary,   Anisha Sinha</p>
+</div>
+<p class="ex1"></p>
+<p>Thanks</p>
+<p class="ex1"></p>
+
+
+</body>
+</html>
+
