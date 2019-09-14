@@ -14,4 +14,4 @@ The current system through which Purdue students with dietary restrictions log t
 4. Voila! A student with dietary restrictions can now easily submit their food requests.
 ### Thanks for Reading!
 
-![](https://media2.giphy.com/media/3ov9k9NKOLHz8KWrWU/source.gif)
+![](td.gif)
