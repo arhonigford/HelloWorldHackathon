@@ -6,13 +6,15 @@ The current system through which Purdue students with dietary restrictions log t
 ### How It Works
 1. The student will visit our webapp, and input the following information:
 
-    -PUID
+    -Name
     
     -Dining Hall they are Requesting
     
     -Time for Pickup
     
     -Food Item to be Modified
+    
+    -Any Allergens they have
     
 2. The student will then submit their information.
 3. This information will be parsed into an email that is sent to the dining hall it is intended for.
