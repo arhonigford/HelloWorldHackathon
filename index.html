@@ -108,14 +108,14 @@ p.ex1{
 </body>
 <h1 align="center">Dietary Request Form</h1>
 <h2 align ="center">dope</h2>
-    <form >
-        Name:<br>
-        <input type = "text" id ="name"><br>
-    </form>
-    <form>
-        Email:<br>
-        <input type ="text" email ="email"><br>
-    </form>
+<form >
+    Name:<br>
+    <input type = "text" id ="name"><br>
+</form>
+<form>
+    Email:<br>
+    <input type ="text" email ="email"><br>
+</form>
 <p align ="center"> Select Dining Hall</p>
 
 <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
@@ -175,8 +175,15 @@ p.ex1{
 
 <p></p>
 
-<button onclick="window.location.href = 'https://cms.jotform.com/uploads/answers/answer/btzap/595457_111.jpg';">Submit</button>
+<button onclick="myFunction()">Submit</button>
 
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thanks! Your requests have been sent.";
+}
+</script>
 
 <p></p>
 
